@@ -1,0 +1,22 @@
+{
+  "name": "mean2-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mean2": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-cli": "^1.0.0-beta.22-1",
+    "clear": "0.0.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "fs-promise": "^1.0.0"
+  }
+}
