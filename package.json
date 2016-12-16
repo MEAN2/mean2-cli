@@ -13,10 +13,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.4.7",
     "angular-cli": "^1.0.0-beta.22-1",
     "clear": "0.0.1",
     "commander": "^2.9.0",
     "figlet": "^1.2.0",
-    "fs-promise": "^1.0.0"
+    "fs-promise": "^1.0.0",
+    "merge-dirs": "^0.2.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
   }
 }
