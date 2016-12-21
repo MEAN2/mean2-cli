@@ -1,0 +1,18 @@
+var <%= name %>Schema = mongoose.Schema({
+  createdOn: {
+    type: Date,
+    default: Date.now
+  },
+
+  modifiedOn: {
+    type: Date,
+    default: Date.now
+  }
+});
+
+<%= name %>Schema.pre('save', next => {
+  this.modifiedOn = Date.now();
+  next();
+});
+
+module.exports = mongoose.model('<%= name %>', <%= name %>Schema);

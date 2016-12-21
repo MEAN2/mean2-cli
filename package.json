@@ -17,6 +17,7 @@
     "angular-cli": "^1.0.0-beta.22-1",
     "clear": "0.0.1",
     "commander": "^2.9.0",
+    "ejs": "^2.5.5",
     "figlet": "^1.2.0",
     "fs-promise": "^1.0.0",
     "merge-dirs": "^0.2.1",

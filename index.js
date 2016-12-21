@@ -58,7 +58,7 @@ function _parseCommands() {
 
   program
     .description('Generate new code inside your project.')
-    .command('generate <type> <name>')
+    .command('generate <type> <name> [value]')
     .alias('g')
     .action(generate);
 
